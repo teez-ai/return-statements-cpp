@@ -8,12 +8,14 @@ using std::string;
 double cube(double num){
   double result=num*num*num;  // Parameter we want to cube
   return result;  // Will return the number as cubed so once we call in main, answer will be cubed
+  // We could also do return num*num*num;
 }
 // You could actually use the same return name variables (result) and parameter variable names (num) since
 //  functions are treated like different containers/entities
 int addTwelve(int num){
   int result=num+12;
   return result;
+  // We could also do return num+12;
 }
 int main(){
   // We have to store it in a variable first before printing otherwise it wont be printed out
